@@ -2598,41 +2598,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "winit"
-version = "0.24.0"
-source = "git+https://github.com/neovide/winit?branch=new-keyboard-all#3b5462ec315aae8d95b9440ff6c52a5412c2cca4"
-dependencies = [
- "bitflags",
- "cocoa",
- "core-foundation 0.9.1",
- "core-graphics 0.22.2",
- "core-video-sys",
- "dispatch",
- "instant",
- "lazy_static",
- "libc",
- "log",
- "memmap2 0.2.3",
- "mio",
- "mio-misc",
- "nameof",
- "ndk",
- "ndk-glue",
- "ndk-sys",
- "objc",
- "parking_lot 0.11.2",
- "percent-encoding",
- "raw-window-handle",
- "scopeguard",
- "smithay-client-toolkit",
- "unicode-segmentation",
- "wayland-client",
- "winapi",
- "x11-dl",
- "xkbcommon-dl",
-]
-
-[[package]]
 name = "winres"
 version = "0.1.11"
 source = "registry+https://github.com/rust-lang/crates.io-index"
