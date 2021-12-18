@@ -900,7 +900,7 @@ dependencies = [
  "wayland-client",
  "wayland-egl",
  "winapi",
- "winit 0.24.0 (git+https://github.com/Kethku/winit?branch=new-keyboard-all)",
+ "winit 0.24.0 (git+https://github.com/neovide/winit?branch=new-keyboard-all)",
 ]
 
 [[package]]
@@ -2565,7 +2565,7 @@ checksum = "712e227841d057c1ee1cd2fb22fa7e5a5461ae8e48fa2ca79ec42cfc1931183f"
 [[package]]
 name = "winit"
 version = "0.24.0"
-source = "git+https://github.com/Kethku/winit?branch=new-keyboard-all#3b5462ec315aae8d95b9440ff6c52a5412c2cca4"
+source = "git+https://github.com/neovide/winit?branch=new-keyboard-all#3b5462ec315aae8d95b9440ff6c52a5412c2cca4"
 dependencies = [
  "bitflags",
  "cocoa",
